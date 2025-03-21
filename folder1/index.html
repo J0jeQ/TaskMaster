@@ -1,56 +1,114 @@
-<!DOCTYPE html>
-<html lang="pl">
+<!doctype html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskManager- organizacja zadan</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TaskManager - organizacja zadan</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link href="https://fonts.googleapi.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 </head>
 <body>
-    <header>
-        <div class="container header-container">
-<div class="logo">
-<h1>Task master</h1>
-</div>
-<nav>
-  <ul>
-    <li><a href="#features">Funkcje</a></li>
-    <li><a href="#testmontials">Opinie</a></li>
-    <li><a href="#download">Pobierz</a></li>
+  <header>
+      <div class="container header-container">
+         <div class="logo">
+            <h1>TaskMaster</h1>
+         </div>
+          <nav>
+              <ul>
+                  <li><a href="#features">Funkcje</a></li>
+                  <li><a href="#testimonials">Opinie</a></li>
+                  <li><a href="#download">Pobierz</a></li>
 
-  </ul>
-</nav>
-        </div>
-    </header>
-    <main>
-        <section class="hero">
+
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <main>
+      <section class ="hero">
           <div class="container">
-            <h2>Organizuj swoje zadania z TaskMaster</h2>
-            <p>
-              TaskMaster to aplikacja, która pomoże CI efektywnie zarządzać czasem i zadaniami
-            </p>
-            <a href="#download" class="btn-download">Pobierz teraz</a>
+              <h2>Organizuj swoje projekty</h2>
+              <p>TaskMaster pozwoli ci organizowac twoje projekty szybciej</p>
+              <a href ="#download" class = "btn-download">Pobierz teraz</a>
           </div>
-        </section>
-        <section id="features" class="features">
+      </section>
+      <section id ="features" class="features">
           <div class="container">
-            <h2>Funkcje</h2>
-            <div class="features-grid">
-              <div class="feature">
-                <i class="fas fa-plus-circle feature-icon"></i>
-                <h3>Latwe dodawanie zadan</h3>
-                <p>Dodawaj zadania w kilka sekund</p>
+              <h2>Funkcje</h2>
+              <div class="features-grid">
+                <!-- Pierwsza funkcja -->
+                  <div class="feature">
+                      <i class="fas fa-plus-circle feature-icon"></i>
+                      <h3>Latwe dodawanie</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores optio consequatur tenetur, eum saepe sequi voluptatum non distinctio soluta perferendis. Quasi maxime sint illum accusantium fugit similique, alias expedita minima.</p>
+                  </div>
+                  <!-- Druga funkcja -->
+                  <div class="feature">
+                    <i class="fas fa-bell feature-icon"></i>
+                    <h3>Przypomnienia i powiadomienia</h3>
+                    <p>Nigdy nie zapomnij o ważnych terminach</p>
+                  </div>
+                  <!-- trzecia funkcja -->
+                  <div class="feature">
+                    <i class="fas fa-sync-alt feature-icon"></i>
+                    <h3>Synchronizacja miedzy urzadzeniami </h3>
+                    <p>Dostep do swoich zadan z kazdego miejsca</p>
+                  </div>
+                  
               </div>
-            </div>
           </div>
-        </section>
-    </main>
-    <footer>
-
-
-    </footer>
+      </section>
+      <!-- Sekcja opinii -->
+      <section id="testimonials" class="testiomnials">
+        <h2>Opinie</h2>
+        <div class="testiomnials-grid">
+            <div class="testimonial">
+                <blackquote>
+                    "TaskMaster zmienil moje zycie!"
+                </blackquote>
+                <p class="author">Janusz Kowalski</p>
+            </div>
+            <div class="testimonial">
+                <blockquote>
+                    "TaskMaster zmienil moje zycie!"
+                </blockquote>
+                <p class="author">Anna Mucha</p>
+            </div>
+        </div>
+      </section>
+      <!-- Sekcja pobierania -->
+      <section id="download" class="download">
+        <div class="container">
+            <h2>Pobierz aplikację TaskMaster</h2>
+            <p>Dołącz do milionow zadowolonych uzytkownikow</p>
+            <a href="#" class="btn-download">Pobierz teraz</a>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <div class="container footer-container">
+        <div class="footer-info">
+            <p>© 2025 TaskMaster</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="newletter">
+            <form action="" method="post">
+                <label for="newsletter-email">Zapisz sie do newslettera</label>
+                <input type="email" name="email" id="newsletter-email" placeholder="Twój email" required>
+                <button type="submit">Zapisz się</button>
+            </form>
+        </div>
+    </div>
+  </footer>
+  <script>
+    // Przykladowy skrypt
+  </script>
 </body>
 </html>
